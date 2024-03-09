@@ -65,13 +65,13 @@ const Contact = () => {
             toast.error(err);
           });
 
-        setFormData({
-          name: "",
-          email: "",
-          mobile: "",
-          subject: "",
-          message: "",
-        });
+        // setFormData({
+        //   name: "",
+        //   email: "",
+        //   mobile: "",
+        //   subject: "",
+        //   message: "",
+        // });
       })
       .catch((error) => {
         console.error(error);
