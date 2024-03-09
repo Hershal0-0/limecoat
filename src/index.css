@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.borderBlack {
+  @apply border border-black;
+}
+
+.hoverTransition {
+  @apply transition-all duration-500 ease-out hover:scale-105;
+}
