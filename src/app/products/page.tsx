@@ -1,5 +1,5 @@
 import React from "react";
-import { productInfo } from "@/src/utils/data";
+import { productInfo } from "../../../src/utils/data";
 import Image from "next/image";
 
 const Products = () => {

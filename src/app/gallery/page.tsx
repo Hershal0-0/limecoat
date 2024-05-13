@@ -2,7 +2,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Gallery1 from "@/public/images/gallery1.webp";
+import Gallery1 from "../../../public/images/gallery1.webp";
 import Image from "next/image";
 
 export default function Gallery() {
@@ -82,7 +82,7 @@ export default function Gallery() {
                   <div className="flex items-center justify-center h-full pb-10">
                     <Image
                       className="max-w-[30rem] max-h-[40rem] rounded-2xl shadow-lg my-5 borderBlack"
-                      src={require(`@/public/images/GalleryNewImages/gal_${
+                      src={require(`../../../public/images/GalleryNewImages/gal_${
                         number + 1
                       }.jpg`)}
                       alt=""
@@ -102,7 +102,7 @@ export default function Gallery() {
                     alt="gallery"
                     className="block object-cover object-center w-full h-full rounded-lg hoverTransition "
                     // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-                    src={require("@/public/images/GalleryNewImages/gal_20.jpg")}
+                    src={require("../../../public/images/GalleryNewImages/gal_20.jpg")}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
@@ -110,7 +110,7 @@ export default function Gallery() {
                     alt="gallery"
                     className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                     // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                    src={require("@/public/images/GalleryNewImages/gal_13.jpg")}
+                    src={require("../../../public/images/GalleryNewImages/gal_13.jpg")}
                   />
                 </div>
                 <div className="w-full p-1 md:p-2">
@@ -118,7 +118,7 @@ export default function Gallery() {
                     alt="gallery"
                     className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                     // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                    src={require("@/public/images/GalleryNewImages/gal_18.jpg")}
+                    src={require("../../../public/images/GalleryNewImages/gal_18.jpg")}
                   />
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function Gallery() {
                     alt="gallery"
                     className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                     // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                    src={require("@/public/images/GalleryNewImages/gal_16.jpg")}
+                    src={require("../../../public/images/GalleryNewImages/gal_16.jpg")}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
@@ -136,7 +136,7 @@ export default function Gallery() {
                     alt="gallery"
                     className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                     // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
-                    src={require("@/public/images/GalleryNewImages/gal_11.jpg")}
+                    src={require("../../../public/images/GalleryNewImages/gal_11.jpg")}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
@@ -144,7 +144,7 @@ export default function Gallery() {
                     alt="gallery"
                     className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                     // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
-                    src={require("@/public/images/GalleryNewImages/gal_21.jpg")}
+                    src={require("../../../public/images/GalleryNewImages/gal_21.jpg")}
                   />
                 </div>
               </div>

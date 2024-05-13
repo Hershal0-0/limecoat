@@ -25,7 +25,7 @@ export default function About() {
           </div>
           <div className="overflow-hidden sm:flex-1">
             <Image
-              src={require("@/public/images/aboutImage.webp")}
+              src={require("../../../public/images/aboutImage.webp")}
               alt=""
               className="w-full h-[20rem] sm:h-full transition-transform duration-300 transform  group-hover:scale-105"
             />

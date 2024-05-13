@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import bedroomPic from "@/public/images/homepage1.jpg";
+import bedroomPic from "../../public/images/homepage1.jpg";
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg hoverTransition "
                 // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-                src={require("@/public/images/GalleryNewImages/gal_20.jpg")}
+                src={require("../../public/images/GalleryNewImages/gal_20.jpg")}
               />
             </div>
             <div className="w-1/2 p-1 md:p-2">
@@ -48,7 +48,7 @@ export default function Home() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                 // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                src={require("@/public/Images/GalleryNewImages/gal_13.jpg")}
+                src={require("../../public/Images/GalleryNewImages/gal_13.jpg")}
               />
             </div>
             <div className="w-full p-1 md:p-2">
@@ -56,7 +56,7 @@ export default function Home() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                 // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                src={require("@/public/images/GalleryNewImages/gal_18.jpg")}
+                src={require("../../public/images/GalleryNewImages/gal_18.jpg")}
               />
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function Home() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                 // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                src={require("@/public/images/GalleryNewImages/gal_16.jpg")}
+                src={require("../../public/images/GalleryNewImages/gal_16.jpg")}
               />
             </div>
             <div className="w-1/2 p-1 md:p-2">
@@ -74,7 +74,7 @@ export default function Home() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                 // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
-                src={require("@/public/images/GalleryNewImages/gal_11.jpg")}
+                src={require("../../public/images/GalleryNewImages/gal_11.jpg")}
               />
             </div>
             <div className="w-1/2 p-1 md:p-2">
@@ -82,7 +82,7 @@ export default function Home() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                 // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
-                src={require("@/public/images/GalleryNewImages/gal_21.jpg")}
+                src={require("../../public/images/GalleryNewImages/gal_21.jpg")}
               />
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function Home() {
         <div className="flex items-center justify-center flex-1 w-full h-full overflow-hidden rounded-lg">
           <Image
             className="h-full transition-transform duration-300 transform sm:w-full group-hover:scale-105"
-            src={require("@/public/images/home_pic.jpg")}
+            src={require("../../public/images/home_pic.jpg")}
             alt=""
           />
         </div>
