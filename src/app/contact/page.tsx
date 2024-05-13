@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { sendEmail } from "../../utils/sendEmail";
-import { contactFormType } from "@/src/types/forms";
+import { contactFormType } from "../../../src/types/forms";
 
 export default function Contact() {
   const [formData, setFormData] = useState<contactFormType>({
