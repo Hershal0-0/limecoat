@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+.borderBlack {
+  @apply border border-black;
+}
+
+.hoverTransition {
+  @apply transition-all duration-500 ease-out hover:scale-105;
+}
+
+/* Input form Style */
+
+.input_wrap > input[type="text"],
+.input_wrap > input[type="textarea"],
+.input_wrap > input[type="email"] {
+  border: 2px solid #afbdcf;
+  border-radius: 5px;
+  height: 47px;
+  width: 300px;
+  color: #000000;
+  font-size: 14px;
+  padding-left: 20px;
+  box-shadow: none;
+}
+
+input[type="textarea"] {
+  height: 10rem !important;
+}
+
+/* Label style after Input feild is in focus. Can also use input:focus ~ label to select sibling. */
+
+input:focus + label,
+input:valid + label {
+  font-size: 12px;
+  color: #afbdcf;
+  top: -5px;
+  left: 10px;
+  background: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+
+.input_wrap {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.input_wrap label {
+  font-family: arial;
+  font-size: 16px;
+  color: #afbdcf;
+  padding: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  pointer-events: none;
+}
+
+input[type="text"]:focus,
+input[type="textarea"]:focus {
+  outline: none;
+}
