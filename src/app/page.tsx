@@ -48,7 +48,7 @@ export default function Home() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg hoverTransition"
                 // src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                src={require("../../public/Images/GalleryNewImages/gal_13.jpg")}
+                src={require("../../public/Images/GalleryNewImages/gal13.jpg")}
               />
             </div>
             <div className="w-full p-1 md:p-2">
