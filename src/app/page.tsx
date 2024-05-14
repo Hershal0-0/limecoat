@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import bedroomPic from "/images/homepage1.jpg";
+import bedroomPic from "../../public/images/homepage1.jpg";
 
 export default function Home() {
   return (
