@@ -12,7 +12,7 @@ const Header = () => {
   //     setCurrentpath(window.location.pathname);
   //   }, [currentPath]);
   return (
-    <header className="z-[10] flex justify-between   bg-slate-3001 sticky top-0 bg-white/80">
+    <header className="z-[10] flex justify-between   bg-slate-3001  bg-white/80">
       <Link href="/">
         <div className="logo">
           <Image

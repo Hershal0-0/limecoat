@@ -17,7 +17,7 @@ export default function Gallery() {
             <div className="pt-10 pl-10 text-[2rem]">Gallery</div>
             <div className="px-10 pt-10 text-[1.2rem] lg:text-[1.5rem] font-thin">
               Explore our gallery and immerse yourself in a world of textured
-              elegance. Discover how our premium p/owder transforms ordinary
+              elegance. Discover how our premium product transforms ordinary
               walls into extraordinary works of art. Let these captivating
               images inspire your next design journey.
             </div>
@@ -81,6 +81,7 @@ export default function Gallery() {
                 return (
                   <div className="flex items-center justify-center h-full pb-10">
                     <Image
+                      priority
                       className="max-w-[30rem] max-h-[40rem] rounded-2xl shadow-lg my-5 borderBlack"
                       src={require(`../../../public/images/GalleryNewImages/gal_${
                         number + 1
